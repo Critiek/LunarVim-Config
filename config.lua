@@ -33,7 +33,8 @@ lvim.plugins = {
   config = function()
     require("nvim-ts-autotag").setup()
   end,
-  }
+  },
+  "stevearc/dressing.nvim"
 }
 
 lvim.colorscheme = "catppuccin-mocha"
