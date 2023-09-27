@@ -24,3 +24,18 @@ vim.g.clipboard = {
     ["*"] = "win32yank.exe -o --lf",
   },
 }
+
+-- Remove everything above this point if not using windows!
+
+lvim.plugins = {
+  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+  { "windwp/nvim-ts-autotag",
+  config = function()
+    require("nvim-ts-autotag").setup()
+  end,
+}
+}
+
+lvim.colorscheme = "catppuccin-mocha"
+
+vim.opt.relativenumber = true -- relative line numbers
