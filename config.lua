@@ -40,3 +40,5 @@ lvim.plugins = {
 lvim.colorscheme = "catppuccin-mocha"
 
 vim.opt.relativenumber = true -- relative line numbers
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
