@@ -28,13 +28,13 @@ vim.g.clipboard = {
 -- NOTE: Remove lines above if not on windows!
 
 lvim.plugins = {
-  { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
-  { "windwp/nvim-ts-autotag",
-  config = function()
-    require("nvim-ts-autotag").setup()
-  end,
-  },
-  "stevearc/dressing.nvim"
+    { "catppuccin/nvim", name = "catppuccin", priority = 1000 },
+    { "windwp/nvim-ts-autotag",
+    config = function()
+        require("nvim-ts-autotag").setup()
+    end,
+    },
+    "stevearc/dressing.nvim"
 }
 
 lvim.colorscheme = "catppuccin-mocha"
